@@ -1,0 +1,43 @@
+body {
+    background-color: black ;
+    color: white;
+}
+.logo {
+    height: 100% ;
+    width: 80% ;
+} 
+.headr{
+    padding: 2% 7% 2% 7%;
+    height: 30%;
+    display: grid ;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.head-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+.nav-b button{
+    height: 100%;
+    width: 85%;
+    margin-left: 10%;
+    background-color: #f12680;
+    border-radius: 25px;
+    color: white;
+}
+.clients{
+    height: 50px ;
+    width: 70px ;
+}
+#oc-clients{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
