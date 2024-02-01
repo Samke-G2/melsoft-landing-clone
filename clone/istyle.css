@@ -64,3 +64,32 @@ a{
     justify-content: flex-start;
     align-items: center;
 }
+.bout {
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
+}
+.bout button {
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+    color: white;
+}
+.bout .arrow {
+    grid-area: 4 / 1 / 4 / 1;
+    background-color:#f12680 ;
+}
+.bout h2 {
+    grid-area: 2 / 1 / 2 / 3 ;
+    z-index: 1;
+}
+.bout p {
+    grid-column: 1;
+    grid-row: 3;
+}
+.bout img {
+    grid-area: 2 / 2 / 5 / 4 ;
+}
