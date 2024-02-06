@@ -128,9 +128,26 @@ a{
 }
 .reviewers {
     height: 15%;
-    width: 8%;
+    width: 7%;
     border-radius: 50%;
 }
 .rev-container .right h3,h4 {
     display: inline-block;
+}
+
+.request h4,h2 {
+    display: inline-block;
+    width: 60%;
+    background-color: grey;
+}
+.request {
+    background-color: #f12680;
+    margin: 7%;
+}
+.request button {
+    background-color: transparent;
+    display:inline;
+    border:0 none;
+    cursor:pointer;
+    outline:none;
 }
