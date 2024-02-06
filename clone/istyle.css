@@ -93,3 +93,14 @@ a{
 .bout img {
     grid-area: 2 / 2 / 5 / 4 ;
 }
+.serv-container {
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img-bg {
+    background-color: white;
+    /* padding: 2%; */
+    width: fit-content;
+    height:max-content;
+}
