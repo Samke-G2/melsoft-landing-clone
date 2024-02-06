@@ -81,6 +81,8 @@ a{
 .bout .arrow {
     grid-area: 4 / 1 / 4 / 1;
     background-color:#f12680 ;
+    height: 25%;
+    width: 30%;
 }
 .bout h2 {
     grid-area: 2 / 1 / 2 / 3 ;
@@ -92,6 +94,8 @@ a{
 }
 .bout img {
     grid-area: 2 / 2 / 5 / 4 ;
+    height: 100%;
+    width: 100%;
 }
 .serv-container {
     padding-left: 7%;
@@ -103,4 +107,17 @@ a{
     /* padding: 2%; */
     width: fit-content;
     height:max-content;
+}
+.awar-container {
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.awar-container .right {
+    justify-self: center;
+    align-self: center;
+}
+.awar-container .right img {
+    height: 90%;
+    width: 90%;
 }
