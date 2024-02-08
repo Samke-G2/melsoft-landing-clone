@@ -1,6 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
 body {
     background-color: #212327;
     color: white;
+    font-family: 'Inter Tight', sans-serif;
 }
 .logo {
     height: 85% ;
@@ -55,9 +58,12 @@ a{
     color: white;
     background-color: transparent;
 }
-.clients{
-    height: 50px ;
-    width: 70px ;
+.introduction h4 {
+    display: inline-block;
+}
+.clients img {
+    height: 60px ;
+    width: 100px ;
 }
 #oc-clients{
     display: flex;
