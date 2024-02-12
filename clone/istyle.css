@@ -5,12 +5,17 @@ body {
     color: white;
     font-family: 'Inter Tight', sans-serif;
 }
+button {
+    border:0 none;
+    cursor:pointer;
+    outline:none;
+}
 .logo {
-    height: 85% ;
-    width: 100% ;
+    height: 65% ;
+    width: 95% ;
 } 
 .headr{
-    margin: 1% 7% 0 7%;
+    margin: 2% 7% 0 7%;
     height: 30%;
     display: grid ;
     grid-template-columns: 1fr 3fr 1fr;
@@ -30,6 +35,8 @@ body {
     color: white;
     font-size:x-large;
     font-weight: bold;
+    margin-top: 5%;
+    font-size: 1.2rem;
 }
 a{
     color: white;
@@ -39,36 +46,51 @@ a{
     height: 75%;
     width: 85%;
     margin-left: 10%;
+    margin-top: 5%;
     background-color: #f12680;
     border-radius: 50px;
     color: white;
-}
-.welc {
-    font-size: 1.5rem;
+    font-weight: bold;
 }
 .introduction{
     padding-left: 7%;
-    padding-top: 3%;
+    /* padding-top: 3%; */
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.welc {
+    font-size: 1.27rem;
+    grid-area: 1 / 1 / 2 / 3 ;
 }
 .title {
-    font-size: 6.5rem;
+    font-size: 6rem;
     text-decoration: underline;
+    grid-area: 2 / 1 / 5 / 4 ;
 }
-.arr-btn {
+.circ {
+    grid-area: 5 / 1 / 6 / 2 ;
+    background-color: #f12680;
+}
+.olap {
     color: white;
     background-color: transparent;
+    grid-area: 5 / 2 / 6 / 3 ;
 }
 .introduction h4 {
     display: inline-block;
+    grid-area: 6 / 1 / 7 / 2 ;
+}
+#oc-clients {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    grid-area: 6 / 2 / 4 / 7 ;
 }
 .clients img {
     height: 60px ;
     width: 100px ;
-}
-#oc-clients{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 .bout {
     padding-left: 7%;
