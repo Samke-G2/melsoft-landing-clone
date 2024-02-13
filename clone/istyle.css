@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 
+/* General page styles  */
 body {
     background-color: #212327;
     color: white;
@@ -10,6 +11,8 @@ button {
     cursor:pointer;
     outline:none;
 }
+
+/* Header Section */
 .logo {
     height: 65% ;
     width: 95% ;
@@ -38,7 +41,7 @@ button {
     margin-top: 5%;
     font-size: 1.2rem;
 }
-a{
+.headr a{
     color: white;
     text-decoration: none;
 }
@@ -51,6 +54,8 @@ a{
     border-radius: 50px;
     color: white;
 }
+
+/* Introduction section */
 .introduction{
     padding-left: 7%;
     display: grid;
@@ -111,6 +116,8 @@ a{
     height: 60px ;
     width: 100px ;
 }
+
+/* About Us section */
 .bout {
     padding-left: 7%;
     display: grid;
@@ -169,17 +176,62 @@ a{
     height: 100%;
     width: 100%;
 }
+
+/* Services section */
 .serv-container {
     padding-left: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 3%;
 }
 .img-bg {
     background-color: white;
-    /* padding: 2%; */
+    padding: 2.5% 2.5% 1.5% 2.5%;
     width: fit-content;
     height:max-content;
 }
+.img-bg img {
+    height: 25.5rem;
+    width: 19.5rem; 
+}
+.down {
+    padding-top: 24%;
+}
+#brand{
+    padding-top: 24%;
+}
+.serv-container h4 {           /* "services" */
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-top: 13%;
+}
+.serv-container h2 {            /* What We Do */
+    font-size: 3.7rem;
+    margin: 0;
+    padding: 0;
+}
+.serv-container h3 {
+    font-weight: 90;
+    font-size: 2rem;
+    padding-left: 2%;
+    padding-top: 5%;
+}
+.serv-container p {
+    font-size: 1.4rem;
+    padding-left: 2%;
+    line-height: 2.5rem;
+}
+.serv-container button {
+    height: 4rem;
+    width: 4rem;
+    background-color: #f12680;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+/* Awards section */
 .awar-container {
     padding-left: 7%;
     display: grid;
