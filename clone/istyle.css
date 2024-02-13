@@ -47,7 +47,7 @@ a{
     width: 77%;
     margin-left: 10%;
     margin-top: 5%;
-    background-color: #f12680;
+    background-color: #f12680;     
     border-radius: 50px;
     color: white;
 }
@@ -69,7 +69,7 @@ a{
 }
 .arr-btn {
     grid-area: 5 / 1 / 6 / 2 ;
-    background-color: #f12680;
+    background-color: #ff00a6;        /* arrow back color = #ff00a6  */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -78,10 +78,11 @@ a{
 .circ {
     grid-area: 1 / 1 / 2 / 2 ;
     background-color: transparent;
-    height: 50%;
-    width: 40%;
+    height: 80%;
+    width: 80%;
     align-self: center;
     justify-self: center;
+    border-radius: 20%;
 }
 .olap {
     color: white;
