@@ -264,16 +264,51 @@ button {
 /* Reviews section */
 .rev-container {
     padding-left: 7%;
+    padding-right: 7%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rev-container .left {
+    grid-area: 1 / 1 / 4 / 2 ;
+}
+#rev1 {
+    grid-area: 1 / 2 / 2 / 3 ;
+}
+#rev2 {
+    grid-area: 2 / 2 / 3 / 3 ;
+}
+.rev-container h3 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.rev-container h4 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+.rev-container nav {
+    grid-area: 3 / 2 / 4 / 3 ;
+}
+.rev-container p {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 .reviewers {
-    height: 15%;
-    width: 7%;
+    height: 28%;
+    width: 8.1%;
     border-radius: 50%;
+    /* background-color: gold; */
 }
-.rev-container .right h3,h4 {
-    display: inline-block;
+.rev-container nav {
+    justify-self: start;
+    align-self: center;
+}
+.rev-container nav button {
+    background-color: transparent;
+    color: white;
 }
 
 /* Request section */
