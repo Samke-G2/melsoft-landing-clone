@@ -50,7 +50,7 @@ button {
     width: 77%;
     margin-left: 10%;
     margin-top: 5%;
-    background-color: #f12680;     
+    background-color: #f82586;     
     border-radius: 50px;
     color: white;
 }
@@ -74,7 +74,7 @@ button {
 }
 .arr-btn {
     grid-area: 5 / 1 / 6 / 2 ;
-    background-color: #ff00a6;        /* arrow back color = #ff00a6  */
+    background-color: #ff00a6; 
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -83,8 +83,8 @@ button {
 .circ {
     grid-area: 1 / 1 / 2 / 2 ;
     background-color: transparent;
-    height: 80%;
-    width: 80%;
+    height: 30%;
+    width: 40%;
     align-self: center;
     justify-self: center;
     border-radius: 20%;
@@ -92,7 +92,8 @@ button {
 .olap {
     color: white;
     background-color: transparent;
-    grid-area: 5 / 2 / 6 / 3 ;
+    grid-area: 5 / 1 / 6 / 3 ;
+    padding-left: 15%;
     justify-self: start;
     font-size: 1.5rem;
 }
@@ -126,50 +127,62 @@ button {
     margin-bottom: 20%;
 }
 .bout h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 200;
+    margin: 0;
+    padding: 0;
 }
 .bout h2 {
     grid-area: 2 / 1 / 3 / 3 ;
     z-index: 1;
-    font-size: 3rem;
+    font-size: 3.5rem;
     align-self: start;
     justify-self: stretch;
+    margin: 0;
+    padding: 2% 0 0 0;
 }
 .bout p {
     grid-column: 1;
     grid-row: 3;
-    font-size: 1.5rem;
+    margin-top: 10%;
+    font-size: 1.4rem;
     font-weight: 100;
+    line-height: 2.7rem;
 }
 .bout a {
-    color: #f12680;
+    color: #f82586;
     text-decoration: underline;
 }
 .bout-btn {
     grid-area: 4 / 1 / 5 / 2 ;
-    background-color: #f12680;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 0.8fr 0.8fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    margin-top: 15%;
+}
+.img-bck {
+    grid-area: 1 / 1 / 4 / 2 ;
+    background-color: #f82586;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
 }
 .bout .arrow {
-    grid-area: 4 / 1 / 5 / 2 ; 
     background-color: transparent;
-    height: 50%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
     align-self: center;
-    justify-self: center;
 }
 .bout button {
-    grid-column: 1;
-    grid-row: 4;
+    grid-area: 2 / 1 / 3 / 3 ;
     justify-self: center;
     align-self: center;
+    padding-left: 20% ;
     background-color: transparent;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 200;
 }
 .bout img {
     grid-area: 2 / 2 / 6 / 4 ;
@@ -225,7 +238,7 @@ button {
 .serv-container button {
     height: 4rem;
     width: 4rem;
-    background-color: #f12680;
+    background-color: #f82586;
     color: white;
     font-size: 2rem;
     border-radius: 50%;
@@ -310,7 +323,7 @@ button {
 .rev-container nav img {
     height: 10%;
     width: 10%;
-    background-color: #f12680;
+    background-color: #f82586;
     border-radius: 50%;
 }
 .rev-container nav button {
@@ -321,7 +334,7 @@ button {
 
 /* Request section */
 .request {
-    background-color: #f12680;
+    background-color: #f82586;
     margin: 7%;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -375,13 +388,13 @@ footer p {
     line-height: 2.2rem;
 }
 footer .l-links {
-    color: #f12680;
+    color: #f82586;
     text-decoration: none;
     font-size: 1.1rem;
     line-height: 2.5rem;
 }
 #email {
-    color: #f12680;
+    color: #f82586;
     text-decoration: none;
     line-height: 2.5rem;
     font-size: 1.1rem;
@@ -401,7 +414,7 @@ footer .bottom {
     margin-left: 23rem;
 }
 .bottom button {
-    background-color: #f12680;
+    background-color: #f82586;
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 50%;
@@ -410,5 +423,5 @@ footer .bottom {
 .bottom button img {
     width: 55%;
     height: 53%;
-    background-color: #f12680;
+    background-color: #f82586;
 }
