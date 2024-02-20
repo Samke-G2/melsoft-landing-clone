@@ -243,6 +243,10 @@ button {
     font-size: 2rem;
     border-radius: 50%;
 }
+.arrows {
+    height: 35%;
+    width: 45%;
+}
 
 /* Awards section */
 .awar-container {
@@ -261,9 +265,9 @@ button {
 }
 .awar-container .left ul {
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 2.3rem;
     list-style: none;
-    /* list-style-type: symbols(cyclic "\2192"); */
+    list-style-image: url("./resources/images/list-arr5.png");
 }
 .awar-container .right {
     justify-self: start;
@@ -313,7 +317,6 @@ button {
     height: 28%;
     width: 8.1%;
     border-radius: 50%;
-    /* background-color: gold; */
 }
 .rev-container nav {
     justify-self: start;
@@ -388,12 +391,15 @@ footer p {
     line-height: 2.2rem;
 }
 footer .l-links {
-    color: #f82586;
+    color: white;
     text-decoration: none;
     font-size: 1.1rem;
     line-height: 2.5rem;
 }
-#email {
+footer .l-links:hover {
+    color:#f82586;
+}
+.email {
     color: #f82586;
     text-decoration: none;
     line-height: 2.5rem;
@@ -421,7 +427,7 @@ footer .bottom {
     margin-left: 1.5%;
 }
 .bottom button img {
-    width: 55%;
+    width: 70%;
     height: 53%;
     background-color: #f82586;
 }
