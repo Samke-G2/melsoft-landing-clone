@@ -296,6 +296,7 @@ button {
 }
 #rev2 {
     grid-area: 2 / 2 / 3 / 3 ;
+    margin-top: 2.4%;
 }
 .rev-container h2 {
     font-size: 3.5rem;
@@ -305,30 +306,39 @@ button {
     padding: 0;
     margin: 0;
 }
-.rev-container h3 {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-.rev-container h4 {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    font-weight: 100;
-}
-.rev-container nav {
-    grid-area: 3 / 2 / 4 / 3 ;
-}
 .rev-container p {
     font-size: 1.25rem;
     line-height: 2.5rem;
 }
+.revs-block { 
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+}
 .reviewers {
-    height: 28%;
-    width: 8.1%;
+    height: 100%;
+    width: 50%;
     border-radius: 50%;
+    grid-area: 1 / 1 / 3 / 2 ;
+}
+.rev-container h3 {
+    display: inline-block;
+    padding-left: 12%;
+    margin: 0;
+    grid-area: 1 / 1 / 2 / 3 ;
+    align-self: end;
+    font-size: 1.3rem;;
+}
+.rev-container h4 {
+    display: inline-block;
+    padding-left: 12%;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    grid-area: 2 / 1 / 3 / 3
 }
 .rev-container nav {
+    grid-area: 3 / 2 / 4 / 3 ;
     justify-self: start;
     align-self: center; 
     display: grid;
