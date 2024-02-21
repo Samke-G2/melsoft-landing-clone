@@ -5,6 +5,7 @@ body {
     background-color: #212327;
     color: white;
     font-family: 'Inter Tight', sans-serif;
+    /* letter-spacing: 0.1rem; */
 }
 button {
     border:0 none;
@@ -71,6 +72,7 @@ button {
     font-size: 6rem;
     text-decoration: underline;
     grid-area: 2 / 1 / 5 / 4 ;
+    line-height: 6.4rem;
 }
 .arr-btn {
     grid-area: 5 / 1 / 6 / 2 ;
@@ -124,7 +126,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.4fr 1.8fr 0.5fr 0.5fr;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 .bout h4 {
     font-size: 1.4rem;
@@ -198,6 +200,17 @@ button {
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 3%;
 }
+.serv-container h4 {           /* "services" */
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 13% 0 0 0;
+    margin-bottom: 4%;
+}
+.serv-container h2 {            /* What We Do */
+    font-size: 3.7rem;
+    margin: 0;
+    padding: 0;
+}
 .img-bg {
     background-color: white;
     padding: 2.5% 2.5% 1.5% 2.5%;
@@ -213,16 +226,6 @@ button {
 }
 #brand{
     padding-top: 24%;
-}
-.serv-container h4 {           /* "services" */
-    font-size: 1.3rem;
-    font-weight: 100;
-    padding-top: 13%;
-}
-.serv-container h2 {            /* What We Do */
-    font-size: 3.7rem;
-    margin: 0;
-    padding: 0;
 }
 .serv-container h3 {
     font-weight: 90;
@@ -265,17 +268,17 @@ button {
 }
 .awar-container .left ul {
     font-size: 1.1rem;
-    line-height: 2.3rem;
+    line-height: 2.2rem;
     list-style: none;
-    list-style-image: url("./resources/images/list-arr5.png");
+    list-style-image: url("./resources/images/list-arr4.png");
 }
 .awar-container .right {
     justify-self: start;
     align-self: center;
 }
 .awar-container .right img {
-    height: 85%;
-    width: 85%;
+    height: 87%;
+    width: 87%;
 }
 
 /* Reviews section */
@@ -290,6 +293,12 @@ button {
     grid-area: 1 / 1 / 4 / 2 ;
     justify-items: start;
     align-items: start;
+}
+.rev-container hr {
+    height: 3px;
+    background-color: #b2b2b4;
+    border:0 none;
+    outline:none;
 }
 #rev1 {
     grid-area: 1 / 2 / 2 / 3 ;
@@ -452,6 +461,7 @@ footer .bottom {
 .smedia {
     display:inline;
     margin-left: 23rem;
+    margin-left: 34%;
 }
 .bottom button {
     background-color: #f82586;
