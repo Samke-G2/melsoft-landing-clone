@@ -1,10 +1,12 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* General page styles  */
 body {
     background-color: #212327;
     color: white;
-    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Red hat display', sans-serif;
+    /* font-family: 'Inter Tight', sans-serif; */
     /* letter-spacing: 0.1rem; */
 }
 button {
@@ -26,12 +28,12 @@ button {
     justify-items: stretch;
     align-items: stretch;
 }
-.head-log{
+.head-log {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav-list{
+.nav-list {
     list-style: none;
     display: flex;
     justify-content:space-around;
@@ -42,11 +44,17 @@ button {
     margin-top: 5%;
     font-size: 1.2rem;
 }
-.headr a{
+.headr a {
     color: white;
     text-decoration: none;
 }
-.nav-b button{
+.headr a:hover {
+    color:#f82586;
+    border-bottom: solid 3px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.nav-b button {
     height: 70%;
     width: 77%;
     margin-left: 10%;
@@ -57,7 +65,7 @@ button {
 }
 
 /* Introduction section */
-.introduction{
+.introduction {
     padding-left: 7%;
     display: grid;
     grid-template-columns: 0.25fr 1fr 1fr;
@@ -132,7 +140,7 @@ button {
     font-size: 1.4rem;
     font-weight: 200;
     margin: 0;
-    padding: 0;
+    padding-bottom: 2%;
 }
 .bout h2 {
     grid-area: 2 / 1 / 3 / 3 ;
@@ -141,15 +149,17 @@ button {
     align-self: start;
     justify-self: stretch;
     margin: 0;
-    padding: 2% 0 0 0;
+    padding: 2% 0 1% 0;
+    line-height: 3.7rem;
 }
 .bout p {
     grid-column: 1;
     grid-row: 3;
     margin-top: 10%;
-    font-size: 1.4rem;
-    font-weight: 100;
-    line-height: 2.7rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.8px;;
 }
 .bout a {
     color: #f82586;
@@ -184,7 +194,7 @@ button {
     background-color: transparent;
     color: white;
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 .bout img {
     grid-area: 2 / 2 / 6 / 4 ;
