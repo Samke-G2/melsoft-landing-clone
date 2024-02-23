@@ -13,27 +13,27 @@
 </head>
 <body>
 <!-- Header Section  -->
-    <header class="headr">
-        <a href="#" class="head-log">
+    <header class="headr" id="home">
+        <a href="https://melsoft.co.za/" class="head-log">
             <img class="logo" src="./resources/images/Melsoft-Logo-White.webp">
         </a>
         <ul class="nav-list">
-            <li><a href="#" class="">Home</a></li>
-            <li><a href="#" class="">Services</a></li>
-            <li><a href="#" class="">Work</a></li>
-            <li><a href="#" class="">About</a></li>
-            <li><a href="#" class="">Reviews</a></li>
-            <li><a href="#" class="">Blog</a></li>
-            <li><a href="#" class="">Contact</a></li>
+            <li><a href="#home" class="linkies">Home</a></li>
+            <li><a href="#services" class="linkies">Services</a></li>
+            <li><a href="#introto" class="linkies">Work</a></li>
+            <li><a href="#about" class="linkies">About</a></li>
+            <li><a href="#reviews" class="linkies">Reviews</a></li>
+            <li><a href="#" class="linkies">Blog</a></li>
+            <li><a href="#feet" class="linkies">Contact</a></li>
         </ul>
     
         <div class="nav-b">
-            <button type="button">BOOK A CALL &#8594; </button>
+            <a href="#reque"><button type="button" class="olap">BOOK A CALL &#8594;</button></a>
         </div>
     </header>
     
 <!-- Introduction section -->
-    <div class="introduction">
+    <div class="introduction" id="introto">
         <p class="welc">Welcome to Melsoft!</p>
         <h1 class="title">
             Personalized services,<br> with high-impact digital<br> solutions.
@@ -62,11 +62,11 @@
     </div>
 
 <!-- About Us Section -->
-    <div class="bout">
+    <div class="bout" id="about">
         <h4>About us</h4>
         <h2>Where Future-Proof Strategy Meets Digital Innovation</h2>
         <p>
-            Through unified <a href="#">branding</a>, future-<br>forward <a href="#">software development</a>,<br> and strategic <a href="#">digital marketing</a>, <br>
+            Through unified <a href="#brand">branding</a>, future-<br>forward <a href="#softDev">software development</a>,<br> and strategic <a href="#dMarket">digital marketing</a>, <br>
             Melsoft works with the world’s <br> most ambitious brands in creating innovative digital products <br>designed to fuel innovation.
         </p>
         <img src="./resources/images/about3.jpg">
@@ -77,7 +77,7 @@
     </div>
 
 <!-- Services section -->
-    <div class="serv-container">
+    <div class="serv-container" id="services">
         <div class="serv-col">
             <h4>Services</h4>
             <h2>What We Do</h2>
@@ -86,7 +86,7 @@
             <div class="img-bg">
                 <img src="./resources/images/services/1.jpg">    <br>
             </div>
-            <h3>Software<br> Development</h3>
+            <h3 id="softDev">Software<br> Development</h3>
             <p>
                 Utilizing the latest <br>technologies, our software<br> engineers work with you to<br> bring your ideas to life and<br> deliver a seamless front and<br> back-end experience optimized<br> to obtain conversions. 
                 We<br> develop your web, mobile or<br> desktop apps with the<br> functionality for now and with<br> the capability for future<br> evolution.
@@ -108,7 +108,7 @@
             <div class="img-bg">
                 <img src="./resources/images/services/3..jpg">    <br>
             </div>
-            <h3>Digital Marketing</h3>
+            <h3 id="dMarket">Digital Marketing</h3>
             <p>
                 We create and execute<br> omnichannel digital marketing<br> strategies. From SEO and<br> content to paid search and<br> social, we work with you to<br> capture and convert your target<br> audience.
             </p>
@@ -136,8 +136,6 @@
         </div>
     </div>
 
-
-
 <!-- Awards section -->
     <div class="awar-container">
         <div class="left">
@@ -159,7 +157,7 @@
     </div>
 
 <!-- Reviews section -->
-    <div class="rev-container">
+    <div class="rev-container" id="reviews">
         <div class="left">
             <h2>Client <br>Reviews</h2>
         </div>
@@ -192,19 +190,15 @@
         </nav>
     </div>
 
-<!-- Our Latest News section -->
-
-
-
 <!-- Pink banner section -->
-    <div class="request">
+    <div class="request" id="reque">
         <h4>Got a project?</h4>
         <h2>Tell us everything</h2>
         <button><img src="./resources/images/arrow.png"></button>
     </div>
 
 <!-- Footer  -->
-    <footer>
+    <footer id="feet">
         <div class="left">
             <h3>Contact Us</h3>
           <br>
@@ -257,11 +251,8 @@
         </div>
     </footer>
     
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    <!-- General bootstrap script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>       <!-- Popper script for -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>               <!-- Popups and dropdowns-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>               <!-- Popups and dropdowns-->
 </body>
 </html>
